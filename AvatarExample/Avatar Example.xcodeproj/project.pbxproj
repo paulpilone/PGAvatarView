@@ -54,8 +54,8 @@
 		DA86D051193980B200B7EE3B /* Avatar ExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Avatar ExampleTests-Info.plist"; sourceTree = "<group>"; };
 		DA86D053193980B200B7EE3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DA86D055193980B200B7EE3B /* Avatar_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Avatar_ExampleTests.m; sourceTree = "<group>"; };
-		DA86D0601939812300B7EE3B /* PGAvatarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGAvatarView.h; sourceTree = "<group>"; };
-		DA86D0611939812300B7EE3B /* PGAvatarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGAvatarView.m; sourceTree = "<group>"; };
+		DA86D0601939812300B7EE3B /* PGAvatarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PGAvatarView.h; path = ../../Classes/PGAvatarView.h; sourceTree = "<group>"; };
+		DA86D0611939812300B7EE3B /* PGAvatarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PGAvatarView.m; path = ../../Classes/PGAvatarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -471,6 +471,7 @@
 				DA86D05B193980B200B7EE3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA86D05C193980B200B7EE3B /* Build configuration list for PBXNativeTarget "Avatar ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +480,7 @@
 				DA86D05E193980B200B7EE3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
