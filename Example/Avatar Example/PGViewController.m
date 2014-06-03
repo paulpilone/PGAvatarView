@@ -21,7 +21,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    self.avatarView.image = [UIImage imageNamed:@"paul-avatar.png"];
+    //self.avatarView.image = [UIImage imageNamed:@"paul-avatar.png"];
+    self.avatarView.placeholder = @"PG";
 }
 
 - (void)didReceiveMemoryWarning
